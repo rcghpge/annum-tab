@@ -1,4 +1,5 @@
 # === Python cache and artifacts ===
+.DS_Store
 __pycache__/
 __pycache__
 *.py[cod]
