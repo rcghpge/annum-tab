@@ -1,0 +1,3 @@
+# SCM syntax highlighting & preventing 3-way merges
+uv.lock merge=binary linguist-language=YAML linguist-generated=true
+*.ipynb linguist-documentation
