@@ -36,17 +36,3 @@ license = {text = "BSD-2-Clause"}
 requires = ["uv_build>=0.7.19,<0.8.0"]
 build-backend = "uv_build"
 
-<<<<<<< Updated upstream
-
-[tool.uv]
-# Require that the package is available for macOS ARM and x86 (Intel).
-required-environments = [
-    "sys_platform == 'freebsd14' and platform_machine == 'amd64'",
-]
-=======
-[tool.uv_build.packages.find]
-where = ["annum"]
-
-[tool.pdm]
-distribution = false
->>>>>>> Stashed changes
