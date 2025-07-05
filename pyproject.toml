@@ -1,5 +1,5 @@
 [project]
-name = "annum-sdk"
+name = "annum-tab"
 version = "0.1.0"
 description = "annum is a project building on FreeBSD's secure foundation, this project aims for reproducible and ethical AI through the integration of computer vision, LLMs, and tabular NLP."
 authors = [
