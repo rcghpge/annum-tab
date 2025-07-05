@@ -1,0 +1,98 @@
+# === Python cache and artifacts ===
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# === Virtual environment (uv or other) ===
+.venv/
+venv/
+env/
+.uv/
+.pdm/
+
+# === Jupyter and IPython stuff ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Build and distribution artifacts ===
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# === Python packaging ===
+pip-wheel-metadata/
+*.egg
+
+# === Logs and outputs ===
+*.log
+*.out
+*.tmp
+
+# === Data and model files ===
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.npz
+*.csv
+*.tsv
+*.jsonl
+*.txt
+
+# === Hugging Face / Transformers caches ===
+*.cache/
+*.huggingface/
+
+# === OS and editor specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# === VS Code and JetBrains (optional) ===
+.vscode/
+.idea/
+
+# === Project-specific data (optional) ===
+/data/
+datasets/
+checkpoints/
+outputs/
+logs/
+
+# === uv specific lock and build folders ===
+.uv/
+uv.lock
+__pypackages__/
+
+# === Coverage and testing ===
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Temporary or experiment files ===
+*.bak
+*.old
+*.orig
+*.tmp
+
+# === Documentation build (if using sphinx or similar) ===
+_build/
+doc/_build/
