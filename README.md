@@ -54,7 +54,7 @@ curl -Ls https://astral.sh/uv/install.sh | sh
 pkg install python
 ```
 
-This project is tested on **Python 3.13.2** with FreeBSD **14.3**.
+This project is tested on **Python version 3.13.2** running on FreeBSD version **14.3**.
 
 ---
 
@@ -66,7 +66,7 @@ uv pip install -r requirements.txt
 
 ---
 
-## 📊 **Data (in `data/`)**
+## 📊 **Data**
 
 Shell scripts inside `data/` automate pulling and preparing math datasets.
 
