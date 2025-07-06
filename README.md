@@ -77,7 +77,7 @@ sh extract.sh
 ```
 
 **Direct download link to bash script:**  
-[data.sh](./data/download.sh)
+[download.sh](./data/download.sh)
 
 ---
 
