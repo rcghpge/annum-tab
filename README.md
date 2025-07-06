@@ -2,7 +2,8 @@
 
 [![Dependabot Updates](https://github.com/rcghpge/annum-tab/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/dependabot/dependabot-updates)
 [![CodeQL Advanced](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml)
-[![Bandit](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml) 
+[![Bandit](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml)
+[![pages-build-deployment](https://github.com/rcghpge/annum-tab/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/pages/pages-build-deployment)
 
 annum-tab is a research-driven machine learning repository for tabular data + NLP architectures with an implementation test focus on mathematical problem solving, symbolic reasoning, math-based vectorization, large language model (LLM) development, and Python R&D for FreeBSD and BSD systems.
 
