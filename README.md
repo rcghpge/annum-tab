@@ -66,7 +66,7 @@ uv pip install -r requirements.txt
 
 ---
 
-## 🐚 **Shell Data Scripts (in `data/`)**
+## 📊 **Data (in `data/`)**
 
 Shell scripts inside `data/` automate pulling and preparing math datasets.
 
