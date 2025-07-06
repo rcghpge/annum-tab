@@ -1,4 +1,3 @@
-
 # annum-tab
 
 [![CodeQL Advanced](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml)
@@ -104,8 +103,8 @@ Open any notebook in `notebooks/` to explore symbolic math reasoning workflows.
 Recommended entry points:
 
 - `notebooks/basemodel.ipynb`
-- `notebooks/tuning.ipynb`
-- `notebooks/prototype.ipynb`
+- `notebooks/model2.ipynb`
+- `notebooks/testbsd.ipynb`
 
 Start:
 
@@ -117,16 +116,16 @@ jupyter lab
 
 ## 📊 **Viewing Results**
 
-1️⃣ Place or pull math dataset files into `data/` (or run `fetch_math_data.sh`).  
-2️⃣ Run `models/` Python scripts to generate predictions and metrics.  
-3️⃣ Outputs include accuracy, F1 score, symbolic correctness metrics, and optional CSV predictions.
+1️⃣ Place or pull math dataset files into `data/` (or run `data.sh` and `extract.sh`).  
+2️⃣ Run model builds in `models/` to generate model(s) inference test use case focus and the model's metrics.  
+3️⃣ Outputs include accuracy, F1 score, symbolic correctness metrics, and other relevant inference to example implementation.
 
 ---
 
 ## 🛰 **FreeBSD Python Ecosystem Notes**
 
 - Built and tested on FreeBSD **14.3** only.
-- Uses `uv` with pip integration for fast, robust dependency resolution.
+- Uses `uv` with pip integration dependency resolution.
 - Shell scripts are POSIX-compliant for broad compatibility on BSD systems.
 
 ---
@@ -135,17 +134,11 @@ jupyter lab
 
 - [Google DeepMind Mathematics Dataset](https://github.com/google-deepmind/mathematics_dataset)
 - [Hugging Face Math Dataset](https://huggingface.co/datasets/deepmind/math_dataset)
-- [annum-sdk](https://github.com/rcghpge/annum-sdk)
 
 ---
 
 ## 💬 **License**
 
-BSD 3-Clause License (primary).  
-Includes portions under MIT for compatibility and selected components.
-
-See [LICENSE](./LICENSE) for full details.
+BSD 3-Clause License and MIT.  
 
 ---
-
-### ✅ Designed for advanced mathematical reasoning research on FreeBSD 14.3 using modern Python (3.13.2) and uv.
