@@ -1,0 +1,150 @@
+
+# annum-tab
+
+[![CodeQL Advanced](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml)
+[![Bandit](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml)
+
+A FreeBSD-focused research and development repository for mathematical problem solving, symbolic reasoning, and advanced deep learning workflows.
+
+`annum-tab` extends [`annum-sdk`](https://github.com/rcghpge/annum-sdk), a BSD-native software development kit designed for data science, symbolic math, and advanced AI workflows on FreeBSD systems.
+
+---
+
+## 📄 **Research Base**
+
+**Original Paper:** [Analysing Mathematical Reasoning Abilities of Neural Models](https://openreview.net/pdf?id=H1gR5iR5FX)
+
+**Datasets:**
+- [Google DeepMind Mathematics Dataset](https://github.com/google-deepmind/mathematics_dataset)
+- [Hugging Face Math Dataset](https://huggingface.co/datasets/deepmind/math_dataset)
+
+---
+
+## 📁 **Project Structure**
+
+```
+annum-tab/
+├── data/               # Data scripts (.sh) and raw datasets
+├── docs/               # Documentation and reports
+├── models/             # Python model scripts (basemodel.py, tuned.py, etc.)
+├── notebooks/          # Jupyter notebooks for exploration
+├── requirements.txt    # Python dependencies
+├── pyproject.toml      # Project metadata
+├── LICENSE
+├── README.md
+├── __init__.py
+└── uv.lock
+```
+
+---
+
+## ⚙️ **Setup (FreeBSD 14.3 & uv)**
+
+### Install `uv` package manager
+
+```bash
+curl -Ls https://astral.sh/uv/install.sh | sh
+```
+
+### Install Python (if not already installed)
+
+```bash
+pkg install python
+```
+
+This project is tested on **Python 3.13.2** with FreeBSD **14.3**.
+
+---
+
+## 📦 **Install dependencies using uv**
+
+```bash
+uv pip install -r requirements.txt
+```
+
+---
+
+## 🐚 **Shell Data Scripts (in `data/`)**
+
+Shell scripts inside `data/` automate pulling and preparing math datasets.
+
+### Example: Fetch math data
+
+```bash
+cd data/
+sh fetch_math_data.sh
+```
+
+**Direct download link to script:**  
+[fetch_math_data.sh](./data/fetch_math_data.sh)
+
+---
+
+## 🚀 **Quick Start**
+
+### Run baseline model
+
+```bash
+python models/basemodel.py
+```
+
+### Start Jupyter Lab
+
+```bash
+jupyter lab
+```
+
+Open any notebook in `notebooks/` to explore symbolic math reasoning workflows.
+
+---
+
+## 🧪 **Notebooks**
+
+Recommended entry points:
+
+- `notebooks/basemodel.ipynb`
+- `notebooks/tuning.ipynb`
+- `notebooks/prototype.ipynb`
+
+Start:
+
+```bash
+jupyter lab
+```
+
+---
+
+## 📊 **Viewing Results**
+
+1️⃣ Place or pull math dataset files into `data/` (or run `fetch_math_data.sh`).  
+2️⃣ Run `models/` Python scripts to generate predictions and metrics.  
+3️⃣ Outputs include accuracy, F1 score, symbolic correctness metrics, and optional CSV predictions.
+
+---
+
+## 🛰 **FreeBSD Python Ecosystem Notes**
+
+- Built and tested on FreeBSD **14.3** only.
+- Uses `uv` with pip integration for fast, robust dependency resolution.
+- Shell scripts are POSIX-compliant for broad compatibility on BSD systems.
+
+---
+
+## 🔗 **Links**
+
+- [Google DeepMind Mathematics Dataset](https://github.com/google-deepmind/mathematics_dataset)
+- [Hugging Face Math Dataset](https://huggingface.co/datasets/deepmind/math_dataset)
+- [annum-sdk](https://github.com/rcghpge/annum-sdk)
+
+---
+
+## 💬 **License**
+
+BSD 3-Clause License (primary).  
+Includes portions under MIT for compatibility and selected components.
+
+See [LICENSE](./LICENSE) for full details.
+
+---
+
+### ✅ Designed for advanced mathematical reasoning research on FreeBSD 14.3 using modern Python (3.13.2) and uv.
