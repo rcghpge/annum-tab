@@ -118,8 +118,8 @@ jupyter lab
 ## 📊 **Viewing Results**
 
 1️⃣ Place or pull math dataset files into `data/` (or run `download.sh` and `extract.sh`).  
-2️⃣ Run model builds in `models/` to generate model(s) inference test use case focus and the model's metrics.  
-3️⃣ Outputs include accuracy, F1 score, symbolic correctness metrics, and other relevant inference to example implementation.
+2️⃣ Run model builds in `models/` to generate model(s) inference on the example domain of the model's expertise, performance, and accuracy metrics.  
+3️⃣ Outputs include accuracy, F1 score, symbolic correctness metrics, and other relevant results to the example test focus.
 
 ---
 
