@@ -8,12 +8,14 @@ __pycache__
 *.pyo
 *.core
 
+
 # === Virtual environment (uv or other) ===
 .venv/
 venv/
 env/
 .uv/
 .pdm/
+
 
 # === Jupyter and IPython stuff ===
 .ipynb_checkpoints/
@@ -66,15 +68,15 @@ Icon?
 .idea/
 
 # === Project-specific data (optional) ===
-/data/
 datasets/
 checkpoints/
 outputs/
 logs/
+math/
+devel/
 
 # === uv specific lock and build folders ===
 .uv/
-uv.lock
 __pypackages__/
 
 # === Coverage and testing ===

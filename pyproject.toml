@@ -1,39 +1,17 @@
 [project]
 name = "annum-tab"
 version = "0.1.0"
-description = "annum is a project building on FreeBSD's secure foundation, this project aims for reproducible and ethical AI through the integration of computer vision, LLMs, and tabular NLP."
-authors = [
-    {name = "Robert Cocker", email = "rcocker87@gmail.com"},
-]
-dependencies = [
-    "absl-py==2.3.0",
-    "accelerate==0.0.1",
-    "bitsandbytes==0.42.0",
-    "joblib==1.5.1",
-    "mathematics-dataset==1.0.1",
-    "meson==1.8.2",
-    "mpmath==1.3.0",
-    "numpy==2.3.1",
-    "scikit-learn==1.7.0",
-    "scipy==1.16.0",
-    "sentencepiece==0.2.0",
-    "setuptools==80.9.0",
-    "six==1.17.0",
-    "sympy==1.14.0",
-    "threadpoolctl==3.6.0",
-    "wheel==0.45.1",
-    "pandas>=2.3.0",
-    "matplotlib>=3.10.3",
-    "pytest>=8.4.1",
-    "requests>=2.32.4",
-    "setuptools>=80.9.0",
-    "ipykernel>=6.29.5",
-]
-requires-python = ">=3.13"
+description = "Machine learning, NLP, and symbolic reasoning in mathematics"
 readme = "README.md"
-license = {text = "BSD-2-Clause"}
-
-[build-system]
-requires = ["uv_build>=0.7.19,<0.8.0"]
-build-backend = "uv_build"
-
+requires-python = ">=3.13"
+dependencies = [
+    "joblib>=1.5.1",
+    "keras>=3.10.0",
+    "matplotlib>=3.10.3",
+    "nbconvert>=7.16.6",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
+    "tree>=0.2.4",
+]
