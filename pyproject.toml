@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "joblib>=1.5.1",
+    "jupytext>=1.17.2",
     "keras>=3.10.0",
     "matplotlib>=3.10.3",
     "nbconvert>=7.16.6",
