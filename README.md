@@ -123,10 +123,10 @@ jupyter lab
 
 ---
 
-## 🛰 **FreeBSD Python Ecosystem Notes**
+## 🛰 **FreeBSD + Python Ecosystem**
 
 - Built and tested on FreeBSD **14.3** only.
-- Uses `uv` with pip integration dependency resolution.
+- Developed with `uv` and pip integration dependency resolution.
 - Shell scripts are POSIX-compliant for broad compatibility on BSD systems.
 
 ---
