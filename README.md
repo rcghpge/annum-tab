@@ -4,9 +4,9 @@
 [![CodeQL Advanced](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml)
 [![Bandit](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml)
 
-A FreeBSD-focused research and development repository for mathematical problem solving, symbolic reasoning, and advanced deep learning workflows.
+annum-tab is a research-driven machine learning repository focused on mathematical problem solving, symbolic reasoning, math-based vectorization, and large language model (LLM) development..
 
-`annum-tab` extends [`annum-sdk`](https://github.com/rcghpge/annum-sdk), a BSD-native software development kit designed for data science, symbolic math, and advanced AI workflows on FreeBSD systems.
+Based on the original work of Saxton et al., 2019, `annum-tab` is an extension of `annum-sdk', a BSD-native software development kit designed for data science, Python development on FreeBSD and BSD-like systems, and other domains.
 
 ---
 
