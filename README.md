@@ -125,7 +125,8 @@ jupyter lab
 
 ## 🛰 **FreeBSD + Python Ecosystem**
 
-- Built and tested on FreeBSD **14.3** only.
+- Built and tested on FreeBSD **14.3** only due to time constraints.
+- This is research-driven repository. This is not a completed build.
 - Developed with `uv` and pip integration dependency resolution.
 - Shell scripts are POSIX-compliant for broad compatibility on BSD systems.
 
