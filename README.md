@@ -76,8 +76,8 @@ cd data/
 sh fetch_math_data.sh
 ```
 
-**Direct download link to script:**  
-[fetch_math_data.sh](./data/fetch_math_data.sh)
+**Direct download link to bash script:**  
+[data.sh](./data/data.sh)
 
 ---
 
