@@ -3,7 +3,7 @@
 [![CodeQL Advanced](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/codeql.yml)
 [![Bandit](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml/badge.svg)](https://github.com/rcghpge/annum-tab/actions/workflows/bandit.yml)
 
-annum-tab is a research-driven machine learning repository for tabular data + NLP that with a test case use focus on mathematical problem solving, symbolic reasoning, math-based vectorization, and large language model (LLM) development.
+annum-tab is a research-driven machine learning repository for tabular data + NLP architectures with an implementation test focus on mathematical problem solving, symbolic reasoning, math-based vectorization, and large language model (LLM) development.
 
 Based on the original work of Saxton et al., 2019, annum-tab is an extension of `annum-sdk`, a BSD-native software development kit designed for data science, Python development for the Python ecosystem on FreeBSD and BSD-like systems, and other domains.
 
