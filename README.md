@@ -131,6 +131,7 @@ jupyter lab
 - This is research-driven repository. This is not a completed build.
 - Developed with `uv` and pip integration dependency resolution.
 - Shell scripts are POSIX-compliant for broad compatibility on BSD systems.
+- If you are just getting started with FreeBSD and BSD, I recommend visiting the Community Hub page I created. It offers helpful resources and a clearer introduction to the FreeBSD operating system: [FreeBSD Community Hub](https://rcghpge.github.io/freebsd/)
 
 ---
 
