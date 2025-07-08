@@ -61,9 +61,9 @@ This project is tested on **Python version 3.13.2** running on FreeBSD version *
 ## 📦 **Install dependencies using uv**
 
 ```bash
-uv pip install -r requirements.txt
+uv install 
 ```
-
+A requirements.txt file is guven as well.
 ---
 
 ## 📊 **Mathematics Dataset**
