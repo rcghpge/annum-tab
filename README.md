@@ -63,7 +63,7 @@ This project is tested on **Python version 3.13.2** running on FreeBSD version *
 ```bash
 uv install 
 ```
-A requirements.txt file is guven as well.
+A requirements.txt file is given as well.
 
 ---
 
