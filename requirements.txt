@@ -196,7 +196,7 @@ tomlkit==0.13.3
 tornado==6.5
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.53.1
+transformers==4.53.2
 trio==0.29.0
 truststore==0.10.1
 Twisted==24.7.0
