@@ -216,4 +216,4 @@ webencodings==0.5.1
 websocket-client==1.8.0
 widgetsnbextension==4.0.14
 wsaccel==0.6.7
-zope.interface==5.3.0
+zope.interface==7.2
