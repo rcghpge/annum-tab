@@ -98,7 +98,7 @@ libevdev==0.12
 lxml==4.9.3
 markdown==3.8.2
 markdown-it-py==3.0.0
-markupsafe==2.1.5
+markupsafe==3.0.2
 matplotlib==3.10.3
 matplotlib-inline==0.1.7
 maturin==1.8.2
