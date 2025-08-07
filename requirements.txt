@@ -146,7 +146,7 @@ pycairo==1.21.0
 pycparser==2.22
 Pygments==2.19.2
 PyGObject==3.52.3
-pylsqpack==0.3.19
+pylsqpack==0.3.22
 pyOpenSSL==25.1.0
 pyparsing==3.2.3
 pyproject_hooks==1.2.0
