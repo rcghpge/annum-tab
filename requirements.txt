@@ -211,7 +211,7 @@ uv==0.7.19
 vboxapi==1.0
 virtualenv==20.31.2
 wcwidth==0.2.13
-webcolors==24.8.0
+webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 widgetsnbextension==4.0.14
