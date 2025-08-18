@@ -162,7 +162,7 @@ pyudev==0.24.3
 PyYAML==6.0.1
 pyzmq==25.0.2
 referencing==0.36.2
-regex==2024.11.6
+regex==2025.7.34
 requests==2.32.4
 resolvelib==1.2.0
 rfc3339-validator==0.1.4
