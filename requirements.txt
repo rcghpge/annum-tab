@@ -101,7 +101,7 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
 matplotlib==3.10.3
 matplotlib-inline==0.1.7
-maturin==1.8.2
+maturin==1.9.4
 mdurl==0.1.2
 menulibre==2.4.0
 meson==1.7.0
