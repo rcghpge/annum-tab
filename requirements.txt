@@ -198,7 +198,7 @@ tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.55.4
 trio==0.30.0
-truststore==0.10.1
+truststore==0.10.4
 Twisted==24.7.0
 types-python-dateutil==2.9.0.20250708
 typing_extensions==4.12.2
