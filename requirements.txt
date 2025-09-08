@@ -128,7 +128,7 @@ pandocfilters==1.5.1
 parso==0.8.4
 pbr==6.1.1
 pbs-installer==2025.6.26
-pdm==2.25.3
+pdm==2.25.9
 pexpect==4.9.0
 pillow==11.3.0
 pip-tools==7.4.1
