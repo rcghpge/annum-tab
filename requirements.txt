@@ -142,7 +142,7 @@ ptyprocess==0.7.0
 pure_eval==0.2.3
 pyasn1==0.6.1
 pyasn1-modules==0.4.2
-pycairo==1.21.0
+pycairo==1.28.0
 pycparser==2.22
 Pygments==2.19.2
 PyGObject==3.52.3
