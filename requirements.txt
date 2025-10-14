@@ -36,7 +36,7 @@ dep-logic==0.5.1
 distlib==0.3.9
 dnspython==2.7.0
 docopt==0.6.2
-evdev==1.9.1
+evdev==1.9.2
 executing==2.2.0
 fastjsonschema==2.19.1
 filelock==3.18.0
